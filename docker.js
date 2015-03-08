@@ -1,3 +1,8 @@
+/*
+ * Docket struggle
+ */
+
+
 var exec = require('child_process').exec;
 
 var swcommon = exec('docker run ubuntu:14.04 \n\
