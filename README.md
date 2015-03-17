@@ -4,16 +4,10 @@
 
 Remote host traffic tracing.
 
-### SSH set up
-We have to generate private ssh key and copy it to remote host
-```sh
-$ ssh-keygen -t rsa
-$ ssh-copy-id username@host
-```
 
-### Node SSH
+### SSH2
 
 ```sh
 $ cd /your/nodejs/directory
-$ npm install node-ssh
+$ npm install ssh2
 ```
